@@ -21,12 +21,11 @@ if __name__ == "__main__":
 
 print(args.f)
 
-'''
-zip_file = 'to_crack.zip'
+#Affectation de Zip file à la valeur de l'argument f
+zip_file = args.f
 
 #test + Réponses
 if has_password(zip_file):
     print(f'{zip_file} is password protected.')
 else:
     print(f'{zip_file} is not password protected.')
-'''
